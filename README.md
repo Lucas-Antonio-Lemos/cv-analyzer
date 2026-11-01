@@ -1,1 +1,3 @@
 # cv-analyzer
+
+Projeto de um analisador de currículos integrado com IA em  andamento...
