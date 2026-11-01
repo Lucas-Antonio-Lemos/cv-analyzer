@@ -1,0 +1,36 @@
+1° npm init -y para criar gerenciador de pacotes ->ok
+
+2° Instalar dependencias -> npm install express multer pdf-parse dotenv openai= Instala 5 bibliotecas ={ ->ok
+
+1-> express: O Express é um framework para criar servidores e APIs com Node.js.
+2->  multer: O Multer é um middleware utilizado para receber arquivos enviados pelo usuário através de requisições HTTP.
+3-> pdf-parser : Essa biblioteca permite extrair informações de arquivos PDF.
+4-> dotenv : Permite armazenar configurações e informações sensíveis em um arquivo .env.
+5-> openai: É a biblioteca oficial da OpenAI para integrar seus modelos de inteligência artificial com aplicações Node.js.
+
+}
+3° CRIAR SERVIDOR ={ =>ok
+    dentro  configurando o servidor express ,router.express e uma rota get para testar o servidor online.
+}
+
+4° Instalar a depencencia do nodemon->ok
+5° criar arquivo curriculo.js dentro de ROUTES  ={
+    Denrto de curriculo.js foi implementado uma rota POST
+}
+
+6° Criar o middleware do multer ={ =>ok 
+   1- Em src/services criar uploadService.js: middleware funcionante  salvando o pdf na pasta uploads.
+}
+ 
+7° Criar o serviço de leitura do PDF (Agora começa a parte que transforma o projeto de "upload de arquivos" para "análise de currículos".)={
+    
+    PDF->Multer->uploads/->pdf-parse->Texto do curriculo->JSON
+    
+    1° Em src/services criar pdfService.js =>ok
+    2° Importar o serviço para src/routes/curriculo.js => ok 
+    3°Criar a rota para ler o pdf=>ok
+
+
+
+    
+}
