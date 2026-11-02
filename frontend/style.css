@@ -1,0 +1,73 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* CABEÇALHO */
+
+.mainHeader {
+    background-color: rgb(66, 66, 128);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 50px;
+    height: 100px;
+}
+
+/* LOGO E TÍTULO */
+
+.logoHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerFile {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.tituloHeader {
+    color: whitesmoke;
+}
+
+.ai {
+    color: rgb(2, 0, 14);
+}
+
+/* MENU */
+
+.menuHeader {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    list-style: none;
+    
+    padding: 20px;
+}
+
+.menuHeader a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.menuHeader a:hover{
+
+    background-color: rgb(38, 38, 78);
+    border-radius: 10px;
+    border:2px solid whitesmoke;
+    transition: 1s;
+}
